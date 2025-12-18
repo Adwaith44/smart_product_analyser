@@ -5,11 +5,11 @@ from PIL import Image
 import serpapi
 
 # Setup Gemini
-os.environ["GEMINI_API_KEY"] = "AIzaSyC46jY82L7Svhhlvd0D8Vf62M4NlUWufAE"
+os.environ["GEMINI_API_KEY"] = ""
 gemini_client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 
 # Setup SerpAPI
-SERPAPI_KEY = "4f68bf6c1878a7eadcd372bba4d824e064c413f1cadb59b6e947f9f3a0faec30"
+SERPAPI_KEY = ""
 
 
 def analyze_image(image):
